@@ -25,8 +25,7 @@ public class ServletDemo4 extends HttpServlet {
 
 	private CrazyService crazyService = new CrazyServiceImp(); // 任务分发
 
-	@Resource
-	private TokenService tokenService;
+	private TokenService tokenService = new TokenServiceImp();
 //	private TokenService tokenService = new TokenServiceImp(); // Token
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

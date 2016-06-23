@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import com.test.action.TokenService;
 import com.test.util.WeixinMessageDigest;
 
+
 public class TokenServiceImp implements TokenService {
 
 	@Override
